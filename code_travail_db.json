@@ -1,0 +1,341 @@
+{
+  "embedding_model": "distiluse-base-multilingual-cased-v2",
+  "chunks": [
+    {
+      "texte": "La durée du travail effectif est le temps pendant lequel le salarié est à la disposition de l'employeur et se conforme à ses directives sans pouvoir vaquer librement à des occupations personnelles.",
+      "texte_embedde": "Article L3121-1 — Temps de travail effectif — définition [Durée du travail et heures supplémentaires] : La durée du travail effectif est le temps pendant lequel le salarié est à la disposition de l'employeur et se conforme à ses directives sans pouvoir vaquer librement à des occupations personnelles.",
+      "article": "L3121-1",
+      "titre": "Temps de travail effectif — définition",
+      "section": "Durée du travail et heures supplémentaires"
+    },
+    {
+      "texte": "La durée légale de travail effectif des salariés à temps complet est fixée à trente-cinq heures par semaine.",
+      "texte_embedde": "Article L3121-27 — Durée légale du travail [Durée du travail et heures supplémentaires] : La durée légale de travail effectif des salariés à temps complet est fixée à trente-cinq heures par semaine.",
+      "article": "L3121-27",
+      "titre": "Durée légale du travail",
+      "section": "Durée du travail et heures supplémentaires"
+    },
+    {
+      "texte": "Toute heure accomplie au-delà de la durée légale hebdomadaire ou de la durée considérée comme équivalente est une heure supplémentaire qui ouvre droit à une majoration salariale ou, le cas échéant, à un repos compensateur équivalent.",
+      "texte_embedde": "Article L3121-28 — Heures supplémentaires — définition [Durée du travail et heures supplémentaires] : Toute heure accomplie au-delà de la durée légale hebdomadaire ou de la durée considérée comme équivalente est une heure supplémentaire qui ouvre droit à une majoration salariale ou, le cas échéant, à un repos compensateur équivalent.",
+      "article": "L3121-28",
+      "titre": "Heures supplémentaires — définition",
+      "section": "Durée du travail et heures supplémentaires"
+    },
+    {
+      "texte": "À défaut d'accord collectif, les heures supplémentaires accomplies au-delà de la durée légale hebdomadaire donnent lieu à une majoration de salaire de 25 % pour chacune des huit premières heures supplémentaires (de la 36e à la 43e heure) et de 50 % pour les heures suivantes (à partir de la 44e heure). Un accord d'entreprise peut prévoir un taux inférieur, sans toutefois descendre en dessous de 10 %.",
+      "texte_embedde": "Article L3121-33 — Majoration des heures supplémentaires [Durée du travail et heures supplémentaires] : À défaut d'accord collectif, les heures supplémentaires accomplies au-delà de la durée légale hebdomadaire donnent lieu à une majoration de salaire de 25 % pour chacune des huit premières heures supplémentaires (de la 36e à la 43e heure) et de 50 % pour les heures suivantes (à partir de la 44e heure). Un accord d'entreprise peut prévoir un taux inférieur, sans toutefois descendre en dessous de 10 %.",
+      "article": "L3121-33",
+      "titre": "Majoration des heures supplémentaires",
+      "section": "Durée du travail et heures supplémentaires"
+    },
+    {
+      "texte": "La durée maximale hebdomadaire de travail au cours d'une même semaine ne peut dépasser quarante-huit heures. Cette limite constitue le plafond absolu et ne peut en aucun cas être dépassée.",
+      "texte_embedde": "Article L3121-20 — Durée maximale hebdomadaire absolue [Durée du travail et heures supplémentaires] : La durée maximale hebdomadaire de travail au cours d'une même semaine ne peut dépasser quarante-huit heures. Cette limite constitue le plafond absolu et ne peut en aucun cas être dépassée.",
+      "article": "L3121-20",
+      "titre": "Durée maximale hebdomadaire absolue",
+      "section": "Durée du travail et heures supplémentaires"
+    },
+    {
+      "texte": "Au cours d'une période de douze semaines consécutives, la durée hebdomadaire moyenne de travail ne peut dépasser quarante-quatre heures.",
+      "texte_embedde": "Article L3121-22 — Durée maximale hebdomadaire moyenne [Durée du travail et heures supplémentaires] : Au cours d'une période de douze semaines consécutives, la durée hebdomadaire moyenne de travail ne peut dépasser quarante-quatre heures.",
+      "article": "L3121-22",
+      "titre": "Durée maximale hebdomadaire moyenne",
+      "section": "Durée du travail et heures supplémentaires"
+    },
+    {
+      "texte": "Le contingent annuel d'heures supplémentaires est fixé par convention ou accord collectif d'entreprise ou d'établissement ou, à défaut, par convention ou accord de branche. À défaut d'accord, le contingent est fixé à deux cent vingt heures par salarié et par an.",
+      "texte_embedde": "Article L3121-36 — Contingent annuel d'heures supplémentaires [Durée du travail et heures supplémentaires] : Le contingent annuel d'heures supplémentaires est fixé par convention ou accord collectif d'entreprise ou d'établissement ou, à défaut, par convention ou accord de branche. À défaut d'accord, le contingent est fixé à deux cent vingt heures par salarié et par an.",
+      "article": "L3121-36",
+      "titre": "Contingent annuel d'heures supplémentaires",
+      "section": "Durée du travail et heures supplémentaires"
+    },
+    {
+      "texte": "Tout salarié bénéficie d'un repos quotidien d'une durée minimale de onze heures consécutives.",
+      "texte_embedde": "Article L3131-1 — Repos quotidien [Durée du travail et heures supplémentaires] : Tout salarié bénéficie d'un repos quotidien d'une durée minimale de onze heures consécutives.",
+      "article": "L3131-1",
+      "titre": "Repos quotidien",
+      "section": "Durée du travail et heures supplémentaires"
+    },
+    {
+      "texte": "Le repos hebdomadaire a une durée minimale de vingt-quatre heures consécutives auxquelles s'ajoutent les heures consécutives de repos quotidien prévu au chapitre précédent, soit un total minimal de trente-cinq heures de repos par semaine. Il est en principe accordé le dimanche.",
+      "texte_embedde": "Article L3132-2 — Repos hebdomadaire [Durée du travail et heures supplémentaires] : Le repos hebdomadaire a une durée minimale de vingt-quatre heures consécutives auxquelles s'ajoutent les heures consécutives de repos quotidien prévu au chapitre précédent, soit un total minimal de trente-cinq heures de repos par semaine. Il est en principe accordé le dimanche.",
+      "article": "L3132-2",
+      "titre": "Repos hebdomadaire",
+      "section": "Durée du travail et heures supplémentaires"
+    },
+    {
+      "texte": "Tout salarié a droit chaque année à un congé payé à la charge de l'employeur. Ce droit est ouvert dès le premier jour de travail, quelle que soit la durée du contrat.",
+      "texte_embedde": "Article L3141-1 — Droit aux congés payés [Congés payés] : Tout salarié a droit chaque année à un congé payé à la charge de l'employeur. Ce droit est ouvert dès le premier jour de travail, quelle que soit la durée du contrat.",
+      "article": "L3141-1",
+      "titre": "Droit aux congés payés",
+      "section": "Congés payés"
+    },
+    {
+      "texte": "Le salarié a droit à un congé de deux jours et demi ouvrables par mois de travail effectif chez le même employeur. La durée totale du congé exigible ne peut excéder trente jours ouvrables, soit cinq semaines par an.",
+      "texte_embedde": "Article L3141-3 — Calcul des droits à congés payés [Congés payés] : Le salarié a droit à un congé de deux jours et demi ouvrables par mois de travail effectif chez le même employeur. La durée totale du congé exigible ne peut excéder trente jours ouvrables, soit cinq semaines par an.",
+      "article": "L3141-3",
+      "titre": "Calcul des droits à congés payés",
+      "section": "Congés payés"
+    },
+    {
+      "texte": "Sont assimilées à un mois de travail effectif pour la détermination de la durée du congé les périodes équivalentes à quatre semaines ou vingt-quatre jours de travail.",
+      "texte_embedde": "Article L3141-4 — Assimilation à du travail effectif pour les congés [Congés payés] : Sont assimilées à un mois de travail effectif pour la détermination de la durée du congé les périodes équivalentes à quatre semaines ou vingt-quatre jours de travail.",
+      "article": "L3141-4",
+      "titre": "Assimilation à du travail effectif pour les congés",
+      "section": "Congés payés"
+    },
+    {
+      "texte": "La période de prise des congés payés est fixée par accord d'entreprise ou, à défaut, par convention ou accord de branche. Elle comprend dans tous les cas la période du 1er mai au 31 octobre de chaque année.",
+      "texte_embedde": "Article L3141-12 — Période de prise des congés payés [Congés payés] : La période de prise des congés payés est fixée par accord d'entreprise ou, à défaut, par convention ou accord de branche. Elle comprend dans tous les cas la période du 1er mai au 31 octobre de chaque année.",
+      "article": "L3141-12",
+      "titre": "Période de prise des congés payés",
+      "section": "Congés payés"
+    },
+    {
+      "texte": "Lorsque le salarié prend une fraction de son congé principal en dehors de la période du 1er mai au 31 octobre, il peut bénéficier de jours de congés supplémentaires dits jours de fractionnement : un jour pour un fractionnement entre 3 et 5 jours, et deux jours pour un fractionnement d'au moins 6 jours.",
+      "texte_embedde": "Article L3141-16 — Jours de fractionnement [Congés payés] : Lorsque le salarié prend une fraction de son congé principal en dehors de la période du 1er mai au 31 octobre, il peut bénéficier de jours de congés supplémentaires dits jours de fractionnement : un jour pour un fractionnement entre 3 et 5 jours, et deux jours pour un fractionnement d'au moins 6 jours.",
+      "article": "L3141-16",
+      "titre": "Jours de fractionnement",
+      "section": "Congés payés"
+    },
+    {
+      "texte": "Lorsque le contrat de travail est rompu avant que le salarié ait pu bénéficier de la totalité du congé auquel il avait droit, il reçoit une indemnité compensatrice de congé calculée sur la base du dixième de la rémunération totale brute perçue au cours de la période de référence.",
+      "texte_embedde": "Article L3141-24 — Indemnité compensatrice de congés payés [Congés payés] : Lorsque le contrat de travail est rompu avant que le salarié ait pu bénéficier de la totalité du congé auquel il avait droit, il reçoit une indemnité compensatrice de congé calculée sur la base du dixième de la rémunération totale brute perçue au cours de la période de référence.",
+      "article": "L3141-24",
+      "titre": "Indemnité compensatrice de congés payés",
+      "section": "Congés payés"
+    },
+    {
+      "texte": "Le contrat de travail est soumis aux règles du droit commun. Il peut être établi selon les formes que les parties contractantes décident d'adopter.",
+      "texte_embedde": "Article L1221-1 — Liberté de forme du contrat de travail [Contrat de travail (CDI, CDD)] : Le contrat de travail est soumis aux règles du droit commun. Il peut être établi selon les formes que les parties contractantes décident d'adopter.",
+      "article": "L1221-1",
+      "titre": "Liberté de forme du contrat de travail",
+      "section": "Contrat de travail (CDI, CDD)"
+    },
+    {
+      "texte": "Le contrat de travail à durée indéterminée est la forme normale et générale de la relation de travail. Toutefois, le contrat de travail peut comporter un terme fixé avec précision dès sa conclusion dans les cas et conditions prévus par la loi.",
+      "texte_embedde": "Article L1221-2 — Le CDI, forme normale de la relation de travail [Contrat de travail (CDI, CDD)] : Le contrat de travail à durée indéterminée est la forme normale et générale de la relation de travail. Toutefois, le contrat de travail peut comporter un terme fixé avec précision dès sa conclusion dans les cas et conditions prévus par la loi.",
+      "article": "L1221-2",
+      "titre": "Le CDI, forme normale de la relation de travail",
+      "section": "Contrat de travail (CDI, CDD)"
+    },
+    {
+      "texte": "Un contrat de travail à durée déterminée, quel que soit son motif, ne peut avoir ni pour objet ni pour effet de pourvoir durablement un emploi lié à l'activité normale et permanente de l'entreprise.",
+      "texte_embedde": "Article L1242-1 — Interdiction du CDD pour emploi permanent [Contrat de travail (CDI, CDD)] : Un contrat de travail à durée déterminée, quel que soit son motif, ne peut avoir ni pour objet ni pour effet de pourvoir durablement un emploi lié à l'activité normale et permanente de l'entreprise.",
+      "article": "L1242-1",
+      "titre": "Interdiction du CDD pour emploi permanent",
+      "section": "Contrat de travail (CDI, CDD)"
+    },
+    {
+      "texte": "Un contrat de travail à durée déterminée ne peut être conclu que pour l'exécution d'une tâche précise et temporaire, et seulement dans les cas suivants : 1° Remplacement d'un salarié absent ; 2° Accroissement temporaire de l'activité de l'entreprise ; 3° Emplois à caractère saisonnier ou pour lesquels il est d'usage constant de ne pas recourir au CDI en raison de la nature de l'activité exercée.",
+      "texte_embedde": "Article L1242-2 — Motifs de recours au CDD [Contrat de travail (CDI, CDD)] : Un contrat de travail à durée déterminée ne peut être conclu que pour l'exécution d'une tâche précise et temporaire, et seulement dans les cas suivants : 1° Remplacement d'un salarié absent ; 2° Accroissement temporaire de l'activité de l'entreprise ; 3° Emplois à caractère saisonnier ou pour lesquels il est d'usage constant de ne pas recourir au CDI en raison de la nature de l'activité exercée.",
+      "article": "L1242-2",
+      "titre": "Motifs de recours au CDD",
+      "section": "Contrat de travail (CDI, CDD)"
+    },
+    {
+      "texte": "Sauf accord des parties, le contrat de travail à durée déterminée ne peut être rompu avant l'échéance du terme qu'en cas de faute grave, de force majeure ou d'inaptitude constatée par le médecin du travail.",
+      "texte_embedde": "Article L1243-1 — Rupture anticipée du CDD [Contrat de travail (CDI, CDD)] : Sauf accord des parties, le contrat de travail à durée déterminée ne peut être rompu avant l'échéance du terme qu'en cas de faute grave, de force majeure ou d'inaptitude constatée par le médecin du travail.",
+      "article": "L1243-1",
+      "titre": "Rupture anticipée du CDD",
+      "section": "Contrat de travail (CDI, CDD)"
+    },
+    {
+      "texte": "La méconnaissance par l'employeur des dispositions sur la rupture anticipée du CDD ouvre droit pour le salarié à des dommages et intérêts d'un montant au moins égal aux rémunérations qu'il aurait perçues jusqu'au terme du contrat.",
+      "texte_embedde": "Article L1243-3 — Indemnisation en cas de rupture anticipée du CDD par l'employeur [Contrat de travail (CDI, CDD)] : La méconnaissance par l'employeur des dispositions sur la rupture anticipée du CDD ouvre droit pour le salarié à des dommages et intérêts d'un montant au moins égal aux rémunérations qu'il aurait perçues jusqu'au terme du contrat.",
+      "article": "L1243-3",
+      "titre": "Indemnisation en cas de rupture anticipée du CDD par l'employeur",
+      "section": "Contrat de travail (CDI, CDD)"
+    },
+    {
+      "texte": "Est réputé à durée indéterminée tout contrat de travail à durée déterminée conclu en méconnaissance des dispositions légales sur les motifs de recours, l'objet du contrat ou les cas de renouvellement. Le salarié peut saisir le conseil de prud'hommes pour obtenir cette requalification et le versement d'une indemnité de requalification.",
+      "texte_embedde": "Article L1245-1 — Requalification du CDD en CDI [Contrat de travail (CDI, CDD)] : Est réputé à durée indéterminée tout contrat de travail à durée déterminée conclu en méconnaissance des dispositions légales sur les motifs de recours, l'objet du contrat ou les cas de renouvellement. Le salarié peut saisir le conseil de prud'hommes pour obtenir cette requalification et le versement d'une indemnité de requalification.",
+      "article": "L1245-1",
+      "titre": "Requalification du CDD en CDI",
+      "section": "Contrat de travail (CDI, CDD)"
+    },
+    {
+      "texte": "Tout licenciement pour motif personnel est motivé dans les conditions définies par le présent chapitre. Il est justifié par une cause réelle et sérieuse. La cause doit être objective, exacte et suffisamment importante pour justifier la rupture.",
+      "texte_embedde": "Article L1232-1 — Licenciement pour motif personnel — cause réelle et sérieuse [Licenciement] : Tout licenciement pour motif personnel est motivé dans les conditions définies par le présent chapitre. Il est justifié par une cause réelle et sérieuse. La cause doit être objective, exacte et suffisamment importante pour justifier la rupture.",
+      "article": "L1232-1",
+      "titre": "Licenciement pour motif personnel — cause réelle et sérieuse",
+      "section": "Licenciement"
+    },
+    {
+      "texte": "L'employeur qui envisage de licencier un salarié le convoque, avant toute décision, à un entretien préalable. La convocation est effectuée par lettre recommandée ou par lettre remise en main propre contre décharge. Cette lettre indique l'objet de la convocation. L'entretien ne peut avoir lieu moins de cinq jours ouvrables après la présentation de la lettre de convocation.",
+      "texte_embedde": "Article L1232-2 — Entretien préalable au licenciement [Licenciement] : L'employeur qui envisage de licencier un salarié le convoque, avant toute décision, à un entretien préalable. La convocation est effectuée par lettre recommandée ou par lettre remise en main propre contre décharge. Cette lettre indique l'objet de la convocation. L'entretien ne peut avoir lieu moins de cinq jours ouvrables après la présentation de la lettre de convocation.",
+      "article": "L1232-2",
+      "titre": "Entretien préalable au licenciement",
+      "section": "Licenciement"
+    },
+    {
+      "texte": "Lorsque le licenciement n'est pas motivé par une faute grave, le salarié a droit : 1° S'il justifie d'une ancienneté inférieure à six mois : à un préavis dont la durée est déterminée par la loi ou la convention collective ; 2° S'il justifie d'une ancienneté comprise entre six mois et moins de deux ans : à un préavis d'un mois ; 3° S'il justifie d'une ancienneté d'au moins deux ans : à un préavis de deux mois.",
+      "texte_embedde": "Article L1234-1 — Durée du préavis de licenciement [Licenciement] : Lorsque le licenciement n'est pas motivé par une faute grave, le salarié a droit : 1° S'il justifie d'une ancienneté inférieure à six mois : à un préavis dont la durée est déterminée par la loi ou la convention collective ; 2° S'il justifie d'une ancienneté comprise entre six mois et moins de deux ans : à un préavis d'un mois ; 3° S'il justifie d'une ancienneté d'au moins deux ans : à un préavis de deux mois.",
+      "article": "L1234-1",
+      "titre": "Durée du préavis de licenciement",
+      "section": "Licenciement"
+    },
+    {
+      "texte": "Le salarié titulaire d'un CDI, licencié alors qu'il comptait au moins huit mois d'ancienneté ininterrompue, a droit, sauf faute grave, à une indemnité de licenciement. Son montant ne peut être inférieur à un quart de mois de salaire par année d'ancienneté pour les années jusqu'à dix ans, et à un tiers de mois de salaire par année d'ancienneté pour les années au-delà de dix ans.",
+      "texte_embedde": "Article L1234-9 — Indemnité légale de licenciement [Licenciement] : Le salarié titulaire d'un CDI, licencié alors qu'il comptait au moins huit mois d'ancienneté ininterrompue, a droit, sauf faute grave, à une indemnité de licenciement. Son montant ne peut être inférieur à un quart de mois de salaire par année d'ancienneté pour les années jusqu'à dix ans, et à un tiers de mois de salaire par année d'ancienneté pour les années au-delà de dix ans.",
+      "article": "L1234-9",
+      "titre": "Indemnité légale de licenciement",
+      "section": "Licenciement"
+    },
+    {
+      "texte": "Si le licenciement survient pour une cause qui n'est pas réelle et sérieuse, le juge octroie au salarié une indemnité à la charge de l'employeur. Le montant est compris entre un plancher et un plafond exprimés en mois de salaire, selon le barème légal fixé par l'article, variant selon l'ancienneté et la taille de l'entreprise.",
+      "texte_embedde": "Article L1235-3 — Indemnité pour licenciement sans cause réelle et sérieuse [Licenciement] : Si le licenciement survient pour une cause qui n'est pas réelle et sérieuse, le juge octroie au salarié une indemnité à la charge de l'employeur. Le montant est compris entre un plancher et un plafond exprimés en mois de salaire, selon le barème légal fixé par l'article, variant selon l'ancienneté et la taille de l'entreprise.",
+      "article": "L1235-3",
+      "titre": "Indemnité pour licenciement sans cause réelle et sérieuse",
+      "section": "Licenciement"
+    },
+    {
+      "texte": "En cas de démission, le salarié est tenu de respecter le préavis prévu par les dispositions législatives et réglementaires en vigueur ainsi que celles qui résultent des conventions ou accords collectifs de travail applicables ou, à défaut, par les usages pratiqués dans la profession et dans la région.",
+      "texte_embedde": "Article L1237-1 — Démission — respect du préavis [Licenciement] : En cas de démission, le salarié est tenu de respecter le préavis prévu par les dispositions législatives et réglementaires en vigueur ainsi que celles qui résultent des conventions ou accords collectifs de travail applicables ou, à défaut, par les usages pratiqués dans la profession et dans la région.",
+      "article": "L1237-1",
+      "titre": "Démission — respect du préavis",
+      "section": "Licenciement"
+    },
+    {
+      "texte": "Constitue un licenciement pour motif économique le licenciement effectué par un employeur pour un ou plusieurs motifs non inhérents à la personne du salarié résultant d'une suppression ou transformation d'emploi ou d'une modification, refusée par le salarié, d'un élément essentiel du contrat de travail, consécutives notamment à des difficultés économiques, à des mutations technologiques, à une réorganisation de l'entreprise nécessaire à la sauvegarde de sa compétitivité ou à la cessation d'activité de l'entreprise.",
+      "texte_embedde": "Article L1251-1 — Licenciement économique — définition [Licenciement] : Constitue un licenciement pour motif économique le licenciement effectué par un employeur pour un ou plusieurs motifs non inhérents à la personne du salarié résultant d'une suppression ou transformation d'emploi ou d'une modification, refusée par le salarié, d'un élément essentiel du contrat de travail, consécutives notamment à des difficultés économiques, à des mutations technologiques, à une réorganisation de l'entreprise nécessaire à la sauvegarde de sa compétitivité ou à la cessation d'activité de l'entreprise.",
+      "article": "L1251-1",
+      "titre": "Licenciement économique — définition",
+      "section": "Licenciement"
+    },
+    {
+      "texte": "L'employeur et le salarié peuvent convenir en commun des conditions de la rupture du contrat de travail qui les lie. La rupture conventionnelle, exclusive du licenciement ou de la démission, ne peut être imposée par l'une ou l'autre des parties. Elle ne peut pas être utilisée pour contourner les règles du licenciement économique collectif.",
+      "texte_embedde": "Article L1237-11 — Rupture conventionnelle — principe [Rupture conventionnelle] : L'employeur et le salarié peuvent convenir en commun des conditions de la rupture du contrat de travail qui les lie. La rupture conventionnelle, exclusive du licenciement ou de la démission, ne peut être imposée par l'une ou l'autre des parties. Elle ne peut pas être utilisée pour contourner les règles du licenciement économique collectif.",
+      "article": "L1237-11",
+      "titre": "Rupture conventionnelle — principe",
+      "section": "Rupture conventionnelle"
+    },
+    {
+      "texte": "Les parties au contrat conviennent du principe d'une rupture conventionnelle lors d'un ou plusieurs entretiens. Au cours de cet entretien, le salarié peut se faire assister par une personne de son choix appartenant au personnel de l'entreprise ou, en l'absence d'institutions représentatives du personnel, par un conseiller du salarié choisi sur une liste dressée par l'autorité administrative.",
+      "texte_embedde": "Article L1237-12 — Rupture conventionnelle — entretien et assistance [Rupture conventionnelle] : Les parties au contrat conviennent du principe d'une rupture conventionnelle lors d'un ou plusieurs entretiens. Au cours de cet entretien, le salarié peut se faire assister par une personne de son choix appartenant au personnel de l'entreprise ou, en l'absence d'institutions représentatives du personnel, par un conseiller du salarié choisi sur une liste dressée par l'autorité administrative.",
+      "article": "L1237-12",
+      "titre": "Rupture conventionnelle — entretien et assistance",
+      "section": "Rupture conventionnelle"
+    },
+    {
+      "texte": "La convention de rupture définit les conditions de celle-ci, notamment le montant de l'indemnité spécifique de rupture conventionnelle qui ne peut pas être inférieur à celui de l'indemnité légale de licenciement prévue à l'article L. 1234-9 (au moins un quart de mois de salaire par année d'ancienneté jusqu'à 10 ans, un tiers au-delà).",
+      "texte_embedde": "Article L1237-13 — Rupture conventionnelle — indemnité et convention [Rupture conventionnelle] : La convention de rupture définit les conditions de celle-ci, notamment le montant de l'indemnité spécifique de rupture conventionnelle qui ne peut pas être inférieur à celui de l'indemnité légale de licenciement prévue à l'article L. 1234-9 (au moins un quart de mois de salaire par année d'ancienneté jusqu'à 10 ans, un tiers au-delà).",
+      "article": "L1237-13",
+      "titre": "Rupture conventionnelle — indemnité et convention",
+      "section": "Rupture conventionnelle"
+    },
+    {
+      "texte": "À l'issue du délai de rétractation de quinze jours, la partie la plus diligente adresse une demande d'homologation à l'autorité administrative (DREETS). L'autorité administrative dispose d'un délai d'instruction de quinze jours ouvrables à compter de la réception de la demande. À défaut de notification dans ce délai, l'homologation est réputée acquise.",
+      "texte_embedde": "Article L1237-14 — Rupture conventionnelle — homologation [Rupture conventionnelle] : À l'issue du délai de rétractation de quinze jours, la partie la plus diligente adresse une demande d'homologation à l'autorité administrative (DREETS). L'autorité administrative dispose d'un délai d'instruction de quinze jours ouvrables à compter de la réception de la demande. À défaut de notification dans ce délai, l'homologation est réputée acquise.",
+      "article": "L1237-14",
+      "titre": "Rupture conventionnelle — homologation",
+      "section": "Rupture conventionnelle"
+    },
+    {
+      "texte": "Chacune des parties peut se rétracter dans un délai de quinze jours calendaires à compter de la date de signature de la convention de rupture. La rétractation est adressée à l'autre partie par tout moyen attestant de sa date de réception.",
+      "texte_embedde": "Article L1237-19 — Rupture conventionnelle — délai de rétractation [Rupture conventionnelle] : Chacune des parties peut se rétracter dans un délai de quinze jours calendaires à compter de la date de signature de la convention de rupture. La rétractation est adressée à l'autre partie par tout moyen attestant de sa date de réception.",
+      "article": "L1237-19",
+      "titre": "Rupture conventionnelle — délai de rétractation",
+      "section": "Rupture conventionnelle"
+    },
+    {
+      "texte": "Tout salarié dont l'employeur est assujetti à l'obligation de participer à l'effort de construction perçoit une rémunération au moins égale au salaire minimum interprofessionnel de croissance (SMIC). Ce plancher s'applique à tous les salariés, sans distinction d'ancienneté ni de secteur.",
+      "texte_embedde": "Article L3231-2 — Droit au SMIC [Salaire minimum (SMIC)] : Tout salarié dont l'employeur est assujetti à l'obligation de participer à l'effort de construction perçoit une rémunération au moins égale au salaire minimum interprofessionnel de croissance (SMIC). Ce plancher s'applique à tous les salariés, sans distinction d'ancienneté ni de secteur.",
+      "article": "L3231-2",
+      "titre": "Droit au SMIC",
+      "section": "Salaire minimum (SMIC)"
+    },
+    {
+      "texte": "Le salaire minimum interprofessionnel de croissance est revalorisé au moins une fois par an, le 1er janvier. Une revalorisation automatique est également déclenchée lorsque l'indice des prix à la consommation des ménages atteint une hausse d'au moins 2 % par rapport à l'indice constaté lors de l'établissement du SMIC immédiatement antérieur.",
+      "texte_embedde": "Article L3231-4 — Revalorisation du SMIC [Salaire minimum (SMIC)] : Le salaire minimum interprofessionnel de croissance est revalorisé au moins une fois par an, le 1er janvier. Une revalorisation automatique est également déclenchée lorsque l'indice des prix à la consommation des ménages atteint une hausse d'au moins 2 % par rapport à l'indice constaté lors de l'établissement du SMIC immédiatement antérieur.",
+      "article": "L3231-4",
+      "titre": "Revalorisation du SMIC",
+      "section": "Salaire minimum (SMIC)"
+    },
+    {
+      "texte": "Le salaire minimum interprofessionnel de croissance est fixé par décret, après consultation des organisations représentatives des salariés et des employeurs membres de la Commission nationale de la négociation collective, de l'emploi et de la formation professionnelle.",
+      "texte_embedde": "Article L3231-6 — Fixation du SMIC [Salaire minimum (SMIC)] : Le salaire minimum interprofessionnel de croissance est fixé par décret, après consultation des organisations représentatives des salariés et des employeurs membres de la Commission nationale de la négociation collective, de l'emploi et de la formation professionnelle.",
+      "article": "L3231-6",
+      "titre": "Fixation du SMIC",
+      "section": "Salaire minimum (SMIC)"
+    },
+    {
+      "texte": "Les salariés dont la rémunération est inférieure au salaire minimum de croissance ont droit à un complément différentiel de salaire versé par l'employeur, de manière à garantir en tout état de cause le versement d'une rémunération au moins égale au SMIC.",
+      "texte_embedde": "Article L3232-1 — Complément différentiel au SMIC [Salaire minimum (SMIC)] : Les salariés dont la rémunération est inférieure au salaire minimum de croissance ont droit à un complément différentiel de salaire versé par l'employeur, de manière à garantir en tout état de cause le versement d'une rémunération au moins égale au SMIC.",
+      "article": "L3232-1",
+      "titre": "Complément différentiel au SMIC",
+      "section": "Salaire minimum (SMIC)"
+    },
+    {
+      "texte": "Dans les entreprises d'au moins onze salariés, l'employeur organise l'élection d'un comité social et économique. La mise en place du CSE est obligatoire et doit être initiée par l'employeur dans le mois qui suit le franchissement du seuil de onze salariés pendant douze mois consécutifs.",
+      "texte_embedde": "Article L2311-1 — Comité social et économique (CSE) — obligation de mise en place [Représentation du personnel] : Dans les entreprises d'au moins onze salariés, l'employeur organise l'élection d'un comité social et économique. La mise en place du CSE est obligatoire et doit être initiée par l'employeur dans le mois qui suit le franchissement du seuil de onze salariés pendant douze mois consécutifs.",
+      "article": "L2311-1",
+      "titre": "Comité social et économique (CSE) — obligation de mise en place",
+      "section": "Représentation du personnel"
+    },
+    {
+      "texte": "Le comité social et économique est doté de la personnalité morale. Il gère son patrimoine et peut notamment ester en justice, percevoir des cotisations et des subventions.",
+      "texte_embedde": "Article L2311-2 — Personnalité morale du CSE [Représentation du personnel] : Le comité social et économique est doté de la personnalité morale. Il gère son patrimoine et peut notamment ester en justice, percevoir des cotisations et des subventions.",
+      "article": "L2311-2",
+      "titre": "Personnalité morale du CSE",
+      "section": "Représentation du personnel"
+    },
+    {
+      "texte": "Le comité social et économique a pour mission d'assurer une expression collective des salariés permettant la prise en compte permanente de leurs intérêts dans les décisions relatives à la gestion et à l'évolution économique et financière de l'entreprise, à l'organisation du travail, à la formation professionnelle et aux techniques de production.",
+      "texte_embedde": "Article L2312-1 — Mission du CSE [Représentation du personnel] : Le comité social et économique a pour mission d'assurer une expression collective des salariés permettant la prise en compte permanente de leurs intérêts dans les décisions relatives à la gestion et à l'évolution économique et financière de l'entreprise, à l'organisation du travail, à la formation professionnelle et aux techniques de production.",
+      "article": "L2312-1",
+      "titre": "Mission du CSE",
+      "section": "Représentation du personnel"
+    },
+    {
+      "texte": "Dans les entreprises d'au moins cinquante salariés, le comité social et économique est informé et consulté sur les questions intéressant l'organisation, la gestion et la marche générale de l'entreprise, notamment sur les mesures de nature à affecter le volume ou la structure des effectifs, la durée du travail ou les conditions d'emploi, de travail et de formation professionnelle.",
+      "texte_embedde": "Article L2312-8 — Consultations du CSE dans les entreprises de 50 salariés et plus [Représentation du personnel] : Dans les entreprises d'au moins cinquante salariés, le comité social et économique est informé et consulté sur les questions intéressant l'organisation, la gestion et la marche générale de l'entreprise, notamment sur les mesures de nature à affecter le volume ou la structure des effectifs, la durée du travail ou les conditions d'emploi, de travail et de formation professionnelle.",
+      "article": "L2312-8",
+      "titre": "Consultations du CSE dans les entreprises de 50 salariés et plus",
+      "section": "Représentation du personnel"
+    },
+    {
+      "texte": "Les membres de la délégation du personnel du comité social et économique sont élus par les salariés de l'entreprise pour une durée de quatre ans. Le nombre de mandats successifs est limité à trois, sauf dans les entreprises de moins de cinquante salariés et dans les cas définis par accord.",
+      "texte_embedde": "Article L2314-1 — Élection des membres du CSE [Représentation du personnel] : Les membres de la délégation du personnel du comité social et économique sont élus par les salariés de l'entreprise pour une durée de quatre ans. Le nombre de mandats successifs est limité à trois, sauf dans les entreprises de moins de cinquante salariés et dans les cas définis par accord.",
+      "article": "L2314-1",
+      "titre": "Élection des membres du CSE",
+      "section": "Représentation du personnel"
+    },
+    {
+      "texte": "Aucun salarié ne doit subir les agissements répétés de harcèlement moral qui ont pour objet ou pour effet une dégradation de ses conditions de travail susceptible de porter atteinte à ses droits et à sa dignité, d'altérer sa santé physique ou mentale ou de compromettre son avenir professionnel.",
+      "texte_embedde": "Article L1152-1 — Interdiction du harcèlement moral [Harcèlement et discrimination] : Aucun salarié ne doit subir les agissements répétés de harcèlement moral qui ont pour objet ou pour effet une dégradation de ses conditions de travail susceptible de porter atteinte à ses droits et à sa dignité, d'altérer sa santé physique ou mentale ou de compromettre son avenir professionnel.",
+      "article": "L1152-1",
+      "titre": "Interdiction du harcèlement moral",
+      "section": "Harcèlement et discrimination"
+    },
+    {
+      "texte": "Aucun salarié ne peut être sanctionné, licencié ou faire l'objet d'une mesure discriminatoire pour avoir subi ou refusé de subir des agissements répétés de harcèlement moral, ou pour avoir témoigné de tels agissements ou les avoir relatés.",
+      "texte_embedde": "Article L1152-2 — Protection des victimes et témoins de harcèlement moral [Harcèlement et discrimination] : Aucun salarié ne peut être sanctionné, licencié ou faire l'objet d'une mesure discriminatoire pour avoir subi ou refusé de subir des agissements répétés de harcèlement moral, ou pour avoir témoigné de tels agissements ou les avoir relatés.",
+      "article": "L1152-2",
+      "titre": "Protection des victimes et témoins de harcèlement moral",
+      "section": "Harcèlement et discrimination"
+    },
+    {
+      "texte": "Toute rupture du contrat de travail intervenue en méconnaissance des dispositions des articles L. 1152-1 et L. 1152-2, toute disposition ou tout acte contraire à celles-ci est nul.",
+      "texte_embedde": "Article L1152-3 — Nullité des actes pris en violation des règles sur le harcèlement moral [Harcèlement et discrimination] : Toute rupture du contrat de travail intervenue en méconnaissance des dispositions des articles L. 1152-1 et L. 1152-2, toute disposition ou tout acte contraire à celles-ci est nul.",
+      "article": "L1152-3",
+      "titre": "Nullité des actes pris en violation des règles sur le harcèlement moral",
+      "section": "Harcèlement et discrimination"
+    },
+    {
+      "texte": "Aucun salarié ne doit subir des faits : 1° De harcèlement sexuel, constitué par des propos ou comportements à connotation sexuelle ou sexiste répétés qui portent atteinte à sa dignité ou créent une situation intimidante, hostile ou offensante ; 2° Assimilés au harcèlement sexuel, consistant en toute forme de pression grave, même non répétée, exercée dans le but d'obtenir un acte de nature sexuelle.",
+      "texte_embedde": "Article L1153-1 — Interdiction du harcèlement sexuel [Harcèlement et discrimination] : Aucun salarié ne doit subir des faits : 1° De harcèlement sexuel, constitué par des propos ou comportements à connotation sexuelle ou sexiste répétés qui portent atteinte à sa dignité ou créent une situation intimidante, hostile ou offensante ; 2° Assimilés au harcèlement sexuel, consistant en toute forme de pression grave, même non répétée, exercée dans le but d'obtenir un acte de nature sexuelle.",
+      "article": "L1153-1",
+      "titre": "Interdiction du harcèlement sexuel",
+      "section": "Harcèlement et discrimination"
+    },
+    {
+      "texte": "Aucune personne ne peut être écartée d'une procédure de recrutement, aucun salarié ne peut être sanctionné, licencié ou faire l'objet d'une mesure discriminatoire, directe ou indirecte, en raison de son origine, son sexe, ses mœurs, son orientation sexuelle, son identité de genre, son âge, sa situation de famille, sa grossesse, ses caractéristiques génétiques, son appartenance ou non-appartenance à une ethnie, une nation, une prétendue race, ses opinions politiques, ses activités syndicales ou mutualistes, ses convictions religieuses, son apparence physique, son état de santé, sa perte d'autonomie ou son handicap.",
+      "texte_embedde": "Article L1132-1 — Principe général de non-discrimination [Harcèlement et discrimination] : Aucune personne ne peut être écartée d'une procédure de recrutement, aucun salarié ne peut être sanctionné, licencié ou faire l'objet d'une mesure discriminatoire, directe ou indirecte, en raison de son origine, son sexe, ses mœurs, son orientation sexuelle, son identité de genre, son âge, sa situation de famille, sa grossesse, ses caractéristiques génétiques, son appartenance ou non-appartenance à une ethnie, une nation, une prétendue race, ses opinions politiques, ses activités syndicales ou mutualistes, ses convictions religieuses, son apparence physique, son état de santé, sa perte d'autonomie ou son handicap.",
+      "article": "L1132-1",
+      "titre": "Principe général de non-discrimination",
+      "section": "Harcèlement et discrimination"
+    }
+  ]
+}
