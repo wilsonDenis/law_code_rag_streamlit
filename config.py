@@ -1,0 +1,5 @@
+EMBEDDING_MODEL_NAME = "distiluse-base-multilingual-cased-v2"
+LLM_MODEL_NAME = "llama-3.3-70b-versatile"
+MODERATOR_MODEL_NAME = "llama-3.1-8b-instant"
+VECTOR_DB_NAME = "code_travail_db"
+CORPUS_PATH = "corpus/code_travail.json"
