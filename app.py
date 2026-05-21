@@ -1,4 +1,12 @@
 import os
+import warnings
+import logging
+
+warnings.filterwarnings("ignore")
+logging.getLogger("transformers").setLevel(logging.ERROR)
+os.environ["TRANSFORMERS_VERBOSITY"] = "error"
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 import streamlit as st
 
 if "GROQ_API_KEY" not in os.environ:
@@ -11,7 +19,6 @@ from rag import RAG
 
 st.set_page_config(
     page_title="Assistant Code du Travail",
-    page_icon="https://upload.wikimedia.org/wikipedia/fr/thumb/2/22/Minist%C3%A8re_du_Travail.svg/1200px-Minist%C3%A8re_du_Travail.svg.png",
     layout="centered",
 )
 
@@ -19,25 +26,46 @@ st.set_page_config(
 def load_rag():
     try:
         return RAG()
-    except Exception as e:
+    except Exception:
         return None
 
 def main():
-    st.title("Assistant Code du Travail")
     st.markdown(
-        "Posez vos questions sur le droit du travail francais. "
-        "Les reponses s'appuient sur les textes officiels du Code du travail."
+        """
+        <style>
+        .main-title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #1E3A5F;
+            margin-bottom: 0.2rem;
+        }
+        .subtitle {
+            font-size: 1rem;
+            color: #555;
+            margin-bottom: 2rem;
+        }
+        .stChatMessage {
+            border-radius: 12px;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    st.markdown('<p class="main-title">Assistant Code du Travail</p>', unsafe_allow_html=True)
+    st.markdown(
+        '<p class="subtitle">Posez vos questions sur le droit du travail francais. '
+        'Les reponses s\'appuient sur les textes officiels du Code du travail.</p>',
+        unsafe_allow_html=True,
     )
 
     rag = load_rag()
-
     api_ok = bool(os.environ.get("GROQ_API_KEY"))
 
     if not api_ok:
         st.warning(
             "La cle API Groq n'est pas configuree. "
-            "Les reponses ne seront pas generees par l'IA. "
-            "Ajoutez GROQ_API_KEY dans les secrets Streamlit pour activer les reponses completes."
+            "Ajoutez GROQ_API_KEY dans les secrets Streamlit pour activer les reponses."
         )
 
     if "messages" not in st.session_state:
@@ -57,8 +85,7 @@ def main():
             if rag is None or not api_ok:
                 full_response = (
                     "Le service est temporairement indisponible. "
-                    "Veuillez verifier que la cle API (GROQ_API_KEY) est correctement configuree "
-                    "dans les parametres de l'application."
+                    "Veuillez verifier que la cle API (GROQ_API_KEY) est correctement configuree."
                 )
                 st.markdown(full_response)
             else:

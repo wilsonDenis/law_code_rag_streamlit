@@ -1,6 +1,7 @@
 groq
-sentence-transformers
+sentence-transformers==3.3.1
 faiss-cpu
 numpy
 python-dotenv
 streamlit
+transformers==4.46.3
