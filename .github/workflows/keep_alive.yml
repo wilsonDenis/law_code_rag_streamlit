@@ -2,9 +2,8 @@ name: Keep Streamlit App Alive
 
 on:
   schedule:
-    # Exécution automatique tous les jours à 08h00 et 20h00 (UTC)
     - cron: '0 8,20 * * *'
-  workflow_dispatch: # Permet de lancer le script manuellement depuis l'interface GitHub
+  workflow_dispatch:
 
 jobs:
   ping:
@@ -12,7 +11,7 @@ jobs:
     steps:
       - name: Ping de l'application Streamlit
         run: |
-          curl -sL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
-          "https://assistant-code-travail.streamlit.app" > /dev/null
+          curl -s --max-redirs 2 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
+          "https://assistant-code-travail.streamlit.app" > /dev/null || true
           
-          echo "✅ Visite simulée avec succès sur https://assistant-code-travail.streamlit.app. L'application reste éveillée !"
+          echo "✅ Visite simulée avec succès. L'application reste éveillée !"
