@@ -2,16 +2,52 @@ name: Keep Streamlit App Alive
 
 on:
   schedule:
-    - cron: '0 8,20 * * *'
+    - cron: '0 6,12,18,0 * * *'
   workflow_dispatch:
 
 jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Ping de l'application Streamlit
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install browser
         run: |
-          curl -s --max-redirs 2 -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" \
-          "https://assistant-code-travail.streamlit.app" > /dev/null || true
-          
-          echo "✅ Visite simulée avec succès. L'application reste éveillée !"
+          pip install playwright
+          playwright install chromium --with-deps
+
+      - name: Visit Streamlit app
+        run: |
+          python << 'SCRIPT'
+          from playwright.sync_api import sync_playwright
+          import sys
+
+          url = "https://assistant-code-travail.streamlit.app"
+
+          with sync_playwright() as p:
+              browser = p.chromium.launch()
+              page = browser.new_page()
+
+              print(f"Opening {url} ...")
+              page.goto(url, wait_until="domcontentloaded", timeout=120000)
+              page.wait_for_timeout(5000)
+
+              wake_btn = page.query_selector('button:has-text("Yes")')
+              if wake_btn:
+                  print("App is sleeping. Clicking wake up button...")
+                  wake_btn.click()
+                  print("Waiting 90s for app to start...")
+                  page.wait_for_timeout(90000)
+              else:
+                  print("App is already awake.")
+
+              page.wait_for_timeout(5000)
+              title = page.title()
+              print(f"Page title: {title}")
+              browser.close()
+
+          print("Done. App visited successfully.")
+          SCRIPT
